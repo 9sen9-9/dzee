@@ -3,7 +3,6 @@
 public class Main {
     public static void main(String[] args) {
 
-
         var dog = 8.0;
         var cat = 3.6;
         var paper = 763789;
@@ -44,10 +43,10 @@ public class Main {
         var employee = 8;
         var total = AllTime / employee;
         System.out.println(total);
-var x = 94;
-x = x + total;
+        var x = 94;
+        x = x + total;
         System.out.println(x);
-x = x % employee;
+        x = x % employee;
         System.out.println(x);
 
 
