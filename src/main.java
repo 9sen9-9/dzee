@@ -1,3 +1,4 @@
+import javax.swing.*;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
@@ -34,30 +35,32 @@ public class main {
 
         /// 4
         int human = 2;
-        if (human >=2 && human<=6 );
+        if (human >= 2 && human <= 6) ;
         System.out.println("Если возраст человека равен" + human + "то ему нужно ходить в детский сад");
-        if (human >=7 && human<=17);
+        if (human >= 7 && human <= 17) ;
         System.out.println("Если возраст человека равен" + human + "то ему нужно ходить в школу");
-        if (human >=18 && human<=24);
-        System.out.println("Если возраст человека равен"+ human+"то его место в университете");
-        if (human>24);
-        System.out.println("Если возраст человека равен "+ human+ "то ему пора ходить на работу ");
+        if (human >= 18 && human <= 24) ;
+        System.out.println("Если возраст человека равен" + human + "то его место в университете");
+        if (human > 24) ;
+        System.out.println("Если возраст человека равен " + human + "то ему пора ходить на работу ");
         ///5
-         age = 13;
-         boolean child = false;
-         if (age<5 || child);
-        System.out.println("если возраст ребенка равен"+ age+ "то ему можно кататься на аттракционе");
-        else if (age > 5 && age < 14 && child);
-        System.out.println("если возраст ребенка равен"+ age+ "то ему можно кататься на аттракционе в сопровождении ");
-        else if (age > 14);
-        System.out.println("если возраст ребенка равен"+ age+ "то ему можно кататься без сопровождения ");
+        age = 13;
+        boolean child = false;
+        if (age < 5 || child) ;
+        System.out.println("если возраст ребенка равен" + age + "то ему можно кататься на аттракционе");
+     else if (age > 5 && age < 14 && child) ;
+        System.out.println("если возраст ребенка равен" + age + "то ему можно кататься на аттракционе в сопровождении ");
+     else if (age > 14) ;
+        System.out.println("если возраст ребенка равен" + age + "то ему можно кататься без сопровождения ");
         ///6
-        int wagon = 102;
-        int place = 60;
-        
-
-
-
+        int wagon = 100;
+        int place = 58;
+        if (place < 60 && wagon < 102) ;
+        System.out.println("в вагоне есть сидячие места");
+     else if (place == 60 && wagon<102);
+        System.out.println("В вагоне есть стоячие места");
+        else
+        System.out.println("вагон полностью забит");
 
 ///7
         int one =1;
