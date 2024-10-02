@@ -17,7 +17,6 @@ public class main {
 
 
         /// 2
-
         int degree = 5;
         if (degree < 5) ;
         System.out.println("На улице" + degree + "нужно надеть шапку");
@@ -26,12 +25,50 @@ public class main {
 
 
         /// 3
-
         int speed = 60;
         if (speed > 60) ;
         System.out.println("если скорость" + speed + "придется заплатить штраф");
         if (speed < 60) ;
         System.out.println("если скорость" + speed + "можно ездить спокойно");
+
+
+        /// 4
+        int human = 2;
+        if (human >=2 && human<=6 );
+        System.out.println("Если возраст человека равен" + human + "то ему нужно ходить в детский сад");
+        if (human >=7 && human<=17);
+        System.out.println("Если возраст человека равен" + human + "то ему нужно ходить в школу");
+        if (human >=18 && human<=24);
+        System.out.println("Если возраст человека равен"+ human+"то его место в университете");
+        if (human>24);
+        System.out.println("Если возраст человека равен "+ human+ "то ему пора ходить на работу ");
+        ///5
+         age = 13;
+         boolean child = false;
+         if (age<5 || child);
+        System.out.println("если возраст ребенка равен"+ age+ "то ему можно кататься на аттракционе");
+        else if (age > 5 && age < 14 && child);
+        System.out.println("если возраст ребенка равен"+ age+ "то ему можно кататься на аттракционе в сопровождении ");
+        else if (age > 14);
+        System.out.println("если возраст ребенка равен"+ age+ "то ему можно кататься без сопровождения ");
+        ///6
+        int wagon = 102;
+        int place = 60;
+        
+
+
+
+
+///7
+        int one =1;
+        int two =2;
+        int three =3;
+        if (one>two && one>three);
+        else
+        System.out.println("наибольшее число 3");
+
+
+
 
     }
 }
