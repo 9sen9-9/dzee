@@ -46,9 +46,9 @@ public class main {
         ///5
         age = 13;
         boolean child = false;
-        if (age < 5 || child) ;{
+        if (age < 5 || child) {
             System.out.println("если возраст ребенка равен" + age + "то ему можно кататься на аттракционе");
-        }else if (age > 5 && age < 14 && child) ;{
+        }else if (age > 5 && age < 14 && child) {
 
             System.out.println("если возраст ребенка равен" + age + "то ему можно кататься на аттракционе в сопровождении ");
         }else if (age > 14) ;{
@@ -58,10 +58,10 @@ public class main {
         ///6
         int wagon = 100;
         int place = 58;
-        if (place < 60 && wagon < 102) ;
+        if (place < 60 && wagon < 102)
         {
             System.out.println("в вагоне есть сидячие места");
-        }else if (place == 60 && wagon<102);
+        }else if (place == 60 && wagon<102)
         {
             System.out.println("В вагоне есть стоячие места");
         } else{
