@@ -8,29 +8,27 @@ public class main {
         int age = 18;
         if (age >= 18) {
             System.out.println("Если возраст человека равен" + age + "то он совершеннолетний");
-            int age1 = 17;
-            if (age >= 18) {
-                System.out.println("Если возраст человека равен" + age1 + "он не достиг совершеннолетия, нужно немного подождать");
-            }
+        } else {
+            System.out.println("Если возраст человека равен" + age + "он не достиг совершеннолетия, нужно немного подождать");
         }
 
         /// 2
         int degree = 5;
         if (degree < 5) {
             System.out.println("На улице" + degree + "нужно надеть шапку");
-            if (degree > 5) {
+        }  else {
                 System.out.println("На улице" + degree + "можно идти без шапки");
             }
-        }
+
 
         /// 3
         int speed = 60;
         if (speed > 60) {
             System.out.println("если скорость" + speed + "придется заплатить штраф");
-            if (speed < 60) {
+        }else {
                 System.out.println("если скорость" + speed + "можно ездить спокойно");
             }
-        }
+
 
         /// 4
         int human = 2;
@@ -56,27 +54,23 @@ public class main {
         } else if (age > 14) {
             System.out.println("если возраст ребенка равен" + age + "то ему можно кататься без сопровождения ");
         }
-
-            ///6
-            int wagon = 100;
-            int place = 58;
-            if (place < 60 && wagon < 102) {
-                System.out.println("в вагоне есть сидячие места");
-            } else if (place == 60 && wagon < 102) {
-                System.out.println("В вагоне есть стоячие места");
-            } else {
-                System.out.println("вагон полностью забит");
-            }
-
-///7
-            int one = 1;
-            int two = 2;
-            int three = 3;
-            if (one > two && one > three) {
-            } else {
-                System.out.println("наибольшее число 3");
-            }
-
-
+        /// 6
+        int wagon = 100;
+        int place = 58;
+        if (place < 60 && wagon < 102) {
+            System.out.println("в вагоне есть сидячие места");
+        } else if (place == 60 && wagon < 102) {
+            System.out.println("В вагоне есть стоячие места");
+        } else {
+            System.out.println("вагон полностью забит");
+        }
+        /// 7
+        int one = 1;
+        int two = 2;
+        int three = 3;
+        if (one > two && one > three) {
+        } else {
+            System.out.println("наибольшее число 3");
         }
     }
+}
