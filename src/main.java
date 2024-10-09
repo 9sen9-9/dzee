@@ -5,72 +5,62 @@ import javax.swing.*;
 public class main {
     public static void main(String[] args) {
 ///1
-        int age = 18;
-        if (age >= 18) {
-            System.out.println("Если возраст человека равен" + age + "то он совершеннолетний");
-        } else {
-            System.out.println("Если возраст человека равен" + age + "он не достиг совершеннолетия, нужно немного подождать");
+        System.out.println(" task 1");
+        for (int i = 0; i < 10; i = i + 2) {
+            System.out.println("Целые числа" + i);
         }
-
-        /// 2
-        int degree = 5;
-        if (degree < 5) {
-            System.out.println("На улице" + degree + "нужно надеть шапку");
-        }  else {
-                System.out.println("На улице" + degree + "можно идти без шапки");
-            }
-
-
-        /// 3
-        int speed = 60;
-        if (speed > 60) {
-            System.out.println("если скорость" + speed + "придется заплатить штраф");
-        }else {
-                System.out.println("если скорость" + speed + "можно ездить спокойно");
-            }
-
-
-        /// 4
-        int human = 2;
-        if (human >= 2 && human <= 6) {
-            System.out.println("Если возраст человека равен" + human + "то ему нужно ходить в детский сад");
-            if (human >= 7 && human <= 17) {
-                System.out.println("Если возраст человека равен" + human + "то ему нужно ходить в школу");
-                if (human >= 18 && human <= 24) {
-                    System.out.println("Если возраст человека равен" + human + "то его место в университете");
-                    if (human > 24) {
-                        System.out.println("Если возраст человека равен " + human + "то ему пора ходить на работу ");
-                    }
-                }
-            }
+        ///2
+        System.out.println("task 2");
+        for (int i = 10; i > 0; i = i - 2) {
+            System.out.println("Целые числа" + i);
+        }
+        ///3
+        System.out.println("task 3");
+        for (int i = 0; i < 17; i = i + 2) {
+            System.out.println("Целые числа" + i);
+        }
+        ///4
+        System.out.println("task 4");
+        for (int i = 10; i >= -10; i--) {
+            System.out.println("числа" + i);
         }
         ///5
-        age = 13;
-        boolean child = false;
-        if (age < 5 || child) {
-            System.out.println("если возраст ребенка равен" + age + "то ему можно кататься на аттракционе");
-        } else if (age > 5 && age < 14 && child) {
-            System.out.println("если возраст ребенка равен" + age + "то ему можно кататься на аттракционе в сопровождении ");
-        } else if (age > 14) {
-            System.out.println("если возраст ребенка равен" + age + "то ему можно кататься без сопровождения ");
+        System.out.println("task5");
+        for (int i = 1904; i <= 2096; i = i + 4) {
+            System.out.println("год является високосным" + i);
         }
-        /// 6
-        int wagon = 100;
-        int place = 58;
-        if (place < 60 && wagon < 102) {
-            System.out.println("в вагоне есть сидячие места");
-        } else if (place == 60 && wagon < 102) {
-            System.out.println("В вагоне есть стоячие места");
-        } else {
-            System.out.println("вагон полностью забит");
+        ///6
+        System.out.println("task6");
+        for (int i = 7; i <= 100; i = i + 7) {
+            System.out.println("Числа" + i);
         }
-        /// 7
-        int one = 1;
-        int two = 2;
-        int three = 3;
-        if (one > two && one > three) {
-        } else {
-            System.out.println("наибольшее число 3");
+        ///7
+        System.out.println("Task7");
+        for (int i = 1; i <= 512; i = i * 2) {
+            System.out.println("Числа" + i);
         }
+        ///8
+        System.out.println("Task8");
+        int total = 0;
+        int salary = 29000;
+        for (int i = 1; i < 12; i = i + 1) {
+            total = salary + total;
+        }
+        System.out.println(total);
+        ///9
+        System.out.println("Task9");
+        int total1 = 0;
+        int salary1 = 29000;
+        for (int i = 0; i < 12; i++) {
+            total1 = total1 + total1 / 100;
+            total1 = total1 + salary1;
+            System.out.println("месяц" + i + "Итого" + salary1);
+        }
+        ///10
+        System.out.println("Task10");
+        for (int i = 1; i <= 20; i++) {
+            System.out.println("2*" + i + "=" + 2 * i);
+        }
+
     }
 }
