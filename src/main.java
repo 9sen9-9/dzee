@@ -16,18 +16,18 @@ public class main {
         int degree = 5;
         if (degree < 5) {
             System.out.println("На улице" + degree + "нужно надеть шапку");
-        }  else {
-                System.out.println("На улице" + degree + "можно идти без шапки");
-            }
+        } else {
+            System.out.println("На улице" + degree + "можно идти без шапки");
+        }
 
 
         /// 3
         int speed = 60;
         if (speed > 60) {
             System.out.println("если скорость" + speed + "придется заплатить штраф");
-        }else {
-                System.out.println("если скорость" + speed + "можно ездить спокойно");
-            }
+        } else {
+            System.out.println("если скорость" + speed + "можно ездить спокойно");
+        }
 
 
         /// 4
@@ -69,6 +69,7 @@ public class main {
         int two = 2;
         int three = 3;
         if (one > two && one > three) {
+            System.out.println("наибольшее число "+one);
         } else {
             System.out.println("наибольшее число 3");
         }
