@@ -6,12 +6,12 @@ public class main {
     public static void main(String[] args) {
 ///1
         System.out.println(" task 1");
-        for (int i = 0; i < 10; i = i + 2) {
+        for (int i = 1; i < 10; i = i+1) {
             System.out.println("Целые числа" + i);
         }
         ///2
         System.out.println("task 2");
-        for (int i = 10; i > 0; i = i - 2) {
+        for (int i = 10; i > 0; i = i-1) {
             System.out.println("Целые числа" + i);
         }
         ///3
@@ -43,7 +43,7 @@ public class main {
         System.out.println("Task8");
         int total = 0;
         int salary = 29000;
-        for (int i = 1; i < 12; i = i + 1) {
+        for (int i = 1; i < 13; i = i + 1) {
             total = salary + total;
         }
         System.out.println(total);
@@ -51,10 +51,10 @@ public class main {
         System.out.println("Task9");
         int total1 = 0;
         int salary1 = 29000;
-        for (int i = 0; i < 12; i++) {
+        for (int i = 1; i < 12; i++) {
             total1 = total1 + total1 / 100;
             total1 = total1 + salary1;
-            System.out.println("месяц" + i + "Итого" + salary1);
+            System.out.println("месяц" + i + "Итого" + total1);
         }
         ///10
         System.out.println("Task10");
