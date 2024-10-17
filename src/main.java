@@ -31,19 +31,20 @@ public class main {
 
 
         /// 4
-        int human = 2;
+        int human = 55;
         if (human >= 2 && human <= 6) {
             System.out.println("Если возраст человека равен" + human + "то ему нужно ходить в детский сад");
-            if (human >= 7 && human <= 17) {
-                System.out.println("Если возраст человека равен" + human + "то ему нужно ходить в школу");
-                if (human >= 18 && human <= 24) {
-                    System.out.println("Если возраст человека равен" + human + "то его место в университете");
-                    if (human > 24) {
-                        System.out.println("Если возраст человека равен " + human + "то ему пора ходить на работу ");
-                    }
-                }
+        } else if (human >= 7 && human <= 17) {
+            System.out.println("Если возраст человека равен" + human + "то ему нужно ходить в школу");
+        } else if (human >= 18 && human <= 24) {
+            System.out.println("Если возраст человека равен" + human + "то его место в университете");
+        } else if (human > 24) {
+            {
+                System.out.println("Если возраст человека равен " + human + "то ему пора ходить на работу ");
             }
         }
+
+
         ///5
         age = 13;
         boolean child = false;
@@ -69,7 +70,7 @@ public class main {
         int two = 2;
         int three = 3;
         if (one > two && one > three) {
-            System.out.println("наибольшее число "+one);
+            System.out.println("наибольшее число 1");
         } else {
             System.out.println("наибольшее число 3");
         }
